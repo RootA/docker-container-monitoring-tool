@@ -6,3 +6,13 @@
 09:13:55.335555 db@open done T·6.1245ms
 16:32:42.769464 db@close closing
 16:32:42.773155 db@close done T·3.687ms
+=============== Dec 7, 2018 (UTC) ===============
+12:53:40.231442 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:53:40.242808 version@stat F·[] S·0B[] Sc·[]
+12:53:40.243714 db@open opening
+12:53:40.246974 journal@recovery F·1
+12:53:40.248448 journal@recovery recovering @1
+12:53:40.285566 memdb@flush created L0@2 N·565 S·291KiB "\x04id\x02/,v398":"fco..r\x021,v461"
+12:53:40.287681 version@stat F·[1] S·291KiB[291KiB] Sc·[0.25]
+12:53:40.297231 db@janitor F·3 G·0
+12:53:40.297799 db@open done T·53.666244ms
