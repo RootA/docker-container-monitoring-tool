@@ -18,6 +18,13 @@ services:
           - "3000:3000"
       environment:
           - GF_INSTALL_PLUGINS=grafana-piechart-panel,jdbranham-diagram-panel
+          
+  nodeexporter:
+      container_name: node_exporter
+      restart: always
+      image: prom/node-exporter
+      ports:
+          - "9100:9100"
 
   prometheus:
       container_name: prometheus
